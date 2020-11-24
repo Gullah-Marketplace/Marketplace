@@ -73,3 +73,6 @@ client/.vimrc
 storage/
 
 storage/
+
+# Ignore application configuration
+/config/application.yml

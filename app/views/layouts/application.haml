@@ -52,9 +52,9 @@
                 = yield :title_header
         - elsif !(is_homepage && FeatureFlagHelper.feature_enabled?(:topbar_v1))
           .coverimage
-            %figure.marketplace-cover-small.fluidratio
-            .coverimage-fade{:class => yield(:coverfade_class)}
-              %figure.marketplace-cover-small-fade.fluidratio
+            %figure.marketplace-cover.fluidratio
+              .lander-content.marketplace-lander-content
+                = video_url("https://youtu.be/UmVTnoft9rM")
           .title-container
             .title-header-wrapper
               .marketplace-title-header

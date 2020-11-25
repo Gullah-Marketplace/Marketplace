@@ -44,19 +44,18 @@
             .banner--title
               = yield :banner_warning
       %section.marketplace-lander
-        - if true
-          .coverimage
-            %figure.marketplace-cover.fluidratio
-              = video_url("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
-                = yield :title_header
-        - elsif !(is_homepage && FeatureFlagHelper.feature_enabled?(:topbar_v1))
-          .coverimage
-            %figure.marketplace-cover.fluidratio
-              = video_url("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
-          .title-container
-            .title-header-wrapper
-              .marketplace-title-header
-                = yield :title_header
+        .coverimage
+          %figure.marketplace-cover.fluidratio
+            = video_url("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
+              = yield :title_header
+        -#- else
+        -#  .coverimage
+        -#    %figure.marketplace-cover.fluidratio
+        -#      = video_url("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
+        -#  .title-container
+        -#    .title-header-wrapper
+        -#      .marketplace-title-header
+        -#        = yield :title_header
 
       %article.page-content{class: is_homepage && !@big_cover_photo ? 'no-cover-photo' : ''}
         .wrapper

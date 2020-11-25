@@ -1970,13 +1970,13 @@ figure.fluidratio {
   position: relative;
 
   figure.marketplace-cover {
-    background-image: url("https://youtu.be/UmVTnoft9rM");
+    //background-image: url("https://youtu.be/UmVTnoft9rM");
     height: auto;
     background-size: cover;
   }
 
   figure.marketplace-cover-small {
-    background-image: url("https://youtu.be/UmVTnoft9rM");
+    //background-image: url("https://youtu.be/UmVTnoft9rM");
     height: em($small-cover-photo-mobile-height);
     @include media(tablet) {
       @include fluid-ratio(em(1920) em($small-cover-photo-height), em(300) em($small-cover-photo-height));

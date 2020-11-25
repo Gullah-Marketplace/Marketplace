@@ -352,11 +352,7 @@ module CustomLandingPage
         {"service": "facebook", "url": "https://www.facebook.com/Gullah-Marketplace-104702494680151/?ref=settings/"},
         {"service": "twitter", "url": "https://twitter.com/gullahmrktplc"},
         {"service": "instagram", "url": "https://www.instagram.com/gullahmarketplace"},
-        {"service": "youtube", "url": "https://www.youtube.com/channel/UCnTHvpH0_Bju1MRH7cDKOiw?view_as=subscriber"},
-        {"service": "googleplus", "url": "https://plus.google.com/114869130265262677354/"},
-        {"service": "linkedin", "url": "https://www.linkedin.com/company/2626583"},
-        {"service": "pinterest", "url": "https://www.pinterest.com/"},
-        {"service": "soundcloud", "url": "https://soundcloud.com/"}
+        {"service": "youtube", "url": "https://www.youtube.com/channel/UCnTHvpH0_Bju1MRH7cDKOiw?view_as=subscriber"}
       ],
       "copyright": "Copyright Marketplace Ltd 2016"
     }

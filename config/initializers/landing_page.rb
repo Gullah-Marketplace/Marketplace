@@ -365,7 +365,6 @@ module CustomLandingPage
 
   "composition": [
     { "section": {"type": "sections", "id": "landing_video"}},
-    { "section": {"type": "sections", "id": "markdown_support"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
 

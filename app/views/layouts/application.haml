@@ -44,30 +44,29 @@
             .banner--title
               = yield :banner_warning
       %section.marketplace-lander
-        - if true
-          .coverimage
-            .marketplace-cover.fluidratio
-              .lander-content.marketplace-lander-content
-                %section#video__landing_video__0.video__youtube-player-mask
-                  .video__youtube-player-container--centering
-                    .video__landing_video__0__video__youtube-player-container--aspect-ratio.video__youtube-player-container--aspect-ratio
-                      %iframe#video__landing_video__0__video__youtube-player.video__youtube-player{:allow => "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", :allowfullscreen => "1", :frameborder => "0", :height => "360", :src => "https://www.youtube.com/embed/UmVTnoft9rM?controls=0&modestbranding=1&rel=0&showinfo=0&autoplay=0&loop=1&playlist=UmVTnoft9rM&enablejsapi=1&origin=https%3A%2F%2Fgullahmarketplace.com&widgetid=1", :title => "YouTube video player", :width => "640", style: "top: 0;left: 0;width: 100%;height: 600px;"}
-                      #video__landing_video__0__video__youtube-overlay.video__youtube-overlay.video__youtube-overlay--inactive.video__youtube-overlay--hover-animation
-                      #video__landing_video__0__video__youtube-controls.video__youtube-controls
-                        %svg#video__landing_video__0__video__youtube-watch-video-icon.video__youtube-watch-video-icon{:height => "63", :viewbox => "47 -1 63 63", :width => "63", :xmlns => "http://www.w3.org/2000/svg"}
-                          %g{:fill => "none", "fill-rule" => "evenodd", :stroke => "#FFF", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
-                            %path{:d => "M108 30c0 16.57-13.433 30-30 30-16.57 0-30-13.43-30-30S61.43 0 78 0c16.567 0 30 13.43 30 30z"}
-                            %path{:d => "M68.87 41.74V18.26L92.347 30z"}
-                        %span#video__landing_video__0__video__youtube-watch-video-text.video__youtube-watch-video-text Welcome to Gullah Marketplace
+        .coverimage
+          .marketplace-cover.fluidratio
+            .lander-content.marketplace-lander-content
+              %section#video__landing_video__0.video__youtube-player-mask
+                .video__youtube-player-container--centering
+                  .video__landing_video__0__video__youtube-player-container--aspect-ratio.video__youtube-player-container--aspect-ratio
+                    %iframe#video__landing_video__0__video__youtube-player.video__youtube-player{:allow => "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", :allowfullscreen => "1", :frameborder => "0", :height => "360", :src => "https://www.youtube.com/embed/UmVTnoft9rM?controls=0&modestbranding=1&rel=0&showinfo=0&autoplay=0&loop=1&playlist=UmVTnoft9rM&enablejsapi=1&origin=https%3A%2F%2Fgullahmarketplace.com&widgetid=1", :title => "YouTube video player", :width => "640", style: "top: 0;left: 0;width: 100%;height: 600px;"}
+                    #video__landing_video__0__video__youtube-overlay.video__youtube-overlay.video__youtube-overlay--inactive.video__youtube-overlay--hover-animation
+                    #video__landing_video__0__video__youtube-controls.video__youtube-controls
+                      %svg#video__landing_video__0__video__youtube-watch-video-icon.video__youtube-watch-video-icon{:height => "63", :viewbox => "47 -1 63 63", :width => "63", :xmlns => "http://www.w3.org/2000/svg"}
+                        %g{:fill => "none", "fill-rule" => "evenodd", :stroke => "#FFF", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+                          %path{:d => "M108 30c0 16.57-13.433 30-30 30-16.57 0-30-13.43-30-30S61.43 0 78 0c16.567 0 30 13.43 30 30z"}
+                          %path{:d => "M68.87 41.74V18.26L92.347 30z"}
+                      %span#video__landing_video__0__video__youtube-watch-video-text.video__youtube-watch-video-text Welcome to Gullah Marketplace
 
-        - elsif !(is_homepage && FeatureFlagHelper.feature_enabled?(:topbar_v1))
-          .coverimage
-            .marketplace-cover.fluidratio
-              = video_tag("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
-          .title-container
-            .title-header-wrapper
-              .marketplace-title-header
-                = yield :title_header
+        -#- elsif !(is_homepage && FeatureFlagHelper.feature_enabled?(:topbar_v1))
+        -#  .coverimage
+        -#    .marketplace-cover.fluidratio
+        -#      = video_tag("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
+        -#  .title-container
+        -#    .title-header-wrapper
+        -#      .marketplace-title-header
+        -#        = yield :title_header
 
       %article.page-content{class: is_homepage && !@big_cover_photo ? 'no-cover-photo' : ''}
         .wrapper

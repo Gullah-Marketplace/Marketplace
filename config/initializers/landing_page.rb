@@ -352,8 +352,8 @@ module CustomLandingPage
       "social": [
         {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
         {"service": "twitter", "url": "https://twitter.com/sharetribe"},
-        {"service": "instagram", "url": "https://www.instagram.com/"},
-        {"service": "youtube", "url": "https://www.youtube.com/channel/UCtefWVq2uu4pHXaIsHlBFnw"},
+        {"service": "instagram", "url": "https://www.instagram.com/gullahmarketplace"},
+        {"service": "youtube", "url": "https://www.youtube.com/channel/UCnTHvpH0_Bju1MRH7cDKOiw?view_as=subscriber"},
         {"service": "googleplus", "url": "https://plus.google.com/114869130265262677354/"},
         {"service": "linkedin", "url": "https://www.linkedin.com/company/2626583"},
         {"service": "pinterest", "url": "https://www.pinterest.com/"},

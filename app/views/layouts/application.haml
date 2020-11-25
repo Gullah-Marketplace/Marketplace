@@ -45,9 +45,8 @@
               = yield :banner_warning
       %section.marketplace-lander
         .coverimage
-          %figure.marketplace-cover.fluidratio
-            = video_url("https://youtu.be/UmVTnoft9rM", class: "lander-content marketplace-lander-content")
-              = yield :title_header
+          = video_url("https://youtu.be/UmVTnoft9rM", class: "marketplace-cover fluidratio")
+            = yield :title_header
         -#- else
         -#  .coverimage
         -#    %figure.marketplace-cover.fluidratio

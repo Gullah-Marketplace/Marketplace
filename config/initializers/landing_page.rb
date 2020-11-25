@@ -349,7 +349,7 @@ module CustomLandingPage
         {"label": "Invite new members", "href": {"type": "path", "id": "new_invitation"}}
       ],
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/Gullahmarket/"},
+        {"service": "facebook", "url": "https://www.facebook.com/Gullah-Marketplace-104702494680151/?ref=settings/"},
         {"service": "twitter", "url": "https://twitter.com/gullahmrktplc"},
         {"service": "instagram", "url": "https://www.instagram.com/gullahmarketplace"},
         {"service": "youtube", "url": "https://www.youtube.com/channel/UCnTHvpH0_Bju1MRH7cDKOiw?view_as=subscriber"},

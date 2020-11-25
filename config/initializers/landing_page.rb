@@ -349,8 +349,8 @@ module CustomLandingPage
         {"label": "Invite new members", "href": {"type": "path", "id": "new_invitation"}}
       ],
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
-        {"service": "twitter", "url": "https://twitter.com/sharetribe"},
+        {"service": "facebook", "url": "https://www.facebook.com/Gullahmarket/"},
+        {"service": "twitter", "url": "https://twitter.com/gullahmrktplc"},
         {"service": "instagram", "url": "https://www.instagram.com/gullahmarketplace"},
         {"service": "youtube", "url": "https://www.youtube.com/channel/UCnTHvpH0_Bju1MRH7cDKOiw?view_as=subscriber"},
         {"service": "googleplus", "url": "https://plus.google.com/114869130265262677354/"},

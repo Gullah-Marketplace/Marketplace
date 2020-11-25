@@ -173,6 +173,7 @@ Rails.application.routes.draw do
 
     namespace :admin2 do
       get '' => "dashboard#index"
+      resources :fresh_desks, only: [:create, :index]
       namespace :general do
         resources :essentials, only: %i[index] do
           collection do

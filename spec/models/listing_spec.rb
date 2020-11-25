@@ -64,6 +64,7 @@
 #  listings_homepage_query             (community_id,open,state,deleted,valid_until,sort_date)
 #  listings_updates_email              (community_id,open,state,deleted,valid_until,updates_email_at,created_at)
 #  person_listings                     (community_id,author_id)
+#  tmp_homepage_query                  (community_id,open,valid_until,sort_date,deleted)
 #
 
 require 'spec_helper'

@@ -196,3 +196,5 @@ group :deployment do
   gem 'capistrano-npm'
 end
 gem 'rails-jwplayer'
+gem 'freshdesk-ruby', require: 'freshdesk'
+gem 'freshdesk-rails'

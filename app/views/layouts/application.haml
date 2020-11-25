@@ -44,10 +44,11 @@
             .banner--title
               = yield :banner_warning
       %section.marketplace-lander
-        - if @big_cover_photo
+        - if true
           .coverimage
             %figure.marketplace-cover.fluidratio
               .lander-content.marketplace-lander-content
+                = video_url("https://youtu.be/UmVTnoft9rM")
                 = yield :title_header
         - elsif !(is_homepage && FeatureFlagHelper.feature_enabled?(:topbar_v1))
           .coverimage

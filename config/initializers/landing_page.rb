@@ -345,7 +345,7 @@ module CustomLandingPage
         {"label": "Contact us", "href": {"type": "path", "id": "contact_us"}},
         {"label": "How to use?", "href": {"type": "path", "id": "how_to_use"}},
         {"label": "Terms", "href": {"type": "path", "id": "terms"}},
-        {"label": "Privary", "href": {"type": "path", "id": "privacy"}},
+        {"label": "Privacy", "href": {"type": "path", "id": "privacy"}},
         {"label": "Invite new members", "href": {"type": "path", "id": "new_invitation"}}
       ],
       "social": [

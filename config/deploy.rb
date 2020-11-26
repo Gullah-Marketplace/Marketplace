@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :repo_url,        'git@github.com:ali-hassan/gullah.git'
+set :repo_url,        'git@github.com:Gullah-Marketplace/Marketplace.git'
 set :application,     'gullah'
 set :user,            'ubuntu'
 set :puma_threads,    [4, 16]

@@ -54,10 +54,37 @@ module CustomLandingPage
       "text": "Video section can contain one Youtube video. Click to watch!"
     },
     {
-      "id": "landing_video",
+      "id": "landing_video_1",
       "kind": "video",
       "variation": "youtube",
-      "youtube_video_id": "UmVTnoft9rM",
+      "youtube_video_id": "43_LFywmj4U",
+      "width": "1280",
+      "height": "720",
+      "text": "Welcome to Gullah Marketplace"
+    },
+    {
+      "id": "landing_video_2",
+      "kind": "video",
+      "variation": "youtube",
+      "youtube_video_id": "qe5PbZDObB0",
+      "width": "1280",
+      "height": "720",
+      "text": "Welcome to Gullah Marketplace"
+    },
+    {
+      "id": "landing_video_3",
+      "kind": "video",
+      "variation": "youtube",
+      "youtube_video_id": "Y7-OI1yCGK0",
+      "width": "1280",
+      "height": "720",
+      "text": "Welcome to Gullah Marketplace"
+    },
+    {
+      "id": "landing_video_4",
+      "kind": "video",
+      "variation": "youtube",
+      "youtube_video_id": "ugapPm46JEI",
       "width": "1280",
       "height": "720",
       "text": "Welcome to Gullah Marketplace"
@@ -359,7 +386,10 @@ module CustomLandingPage
   ],
 
   "composition": [
-    { "section": {"type": "sections", "id": "landing_video"}},
+    { "section": {"type": "sections", "id": "landing_video_1"}},
+    { "section": {"type": "sections", "id": "landing_video_2"}},
+    { "section": {"type": "sections", "id": "landing_video_3"}},
+    { "section": {"type": "sections", "id": "landing_video_4"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
 

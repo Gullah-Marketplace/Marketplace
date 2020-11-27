@@ -45,6 +45,15 @@ module CustomLandingPage
       "signup_button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"}
     },
     {
+      "id": "landing_video",
+      "kind": "video",
+      "variation": "youtube",
+      "youtube_video_id": "UmVTnoft9rM",
+      "width": "1280",
+      "height": "720",
+      "text": "Welcome to Gullah Marketplace"
+    },
+    {
       "id": "video",
       "kind": "video",
       "variation": "youtube",
@@ -386,6 +395,7 @@ module CustomLandingPage
   ],
 
   "composition": [
+    { "section": {"type": "sections", "id": "landing_video"}},
     { "section": {"type": "sections", "id": "landing_video_1"}},
     { "section": {"type": "sections", "id": "landing_video_2"}},
     { "section": {"type": "sections", "id": "landing_video_3"}},

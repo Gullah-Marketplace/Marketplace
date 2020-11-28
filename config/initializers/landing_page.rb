@@ -99,6 +99,15 @@ module CustomLandingPage
       "text": "Welcome to Gullah Marketplace"
     },
     {
+      "id": "landing_video_5",
+      "kind": "video",
+      "variation": "youtube",
+      "youtube_video_id": "g-uRCV-JHJY",
+      "width": "1280",
+      "height": "720",
+      "text": "Welcome to Gullah Marketplace"
+    },
+    {
       "id": "single_info_without_background_and_cta",
       "kind": "info",
       "variation": "single_column",
@@ -400,6 +409,7 @@ module CustomLandingPage
     { "section": {"type": "sections", "id": "landing_video_2"}},
     { "section": {"type": "sections", "id": "landing_video_3"}},
     { "section": {"type": "sections", "id": "landing_video_4"}},
+    { "section": {"type": "sections", "id": "landing_video_5"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
 

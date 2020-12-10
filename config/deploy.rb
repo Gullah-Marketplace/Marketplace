@@ -2,13 +2,13 @@
 lock "~> 3.11.0"
 
 set :repo_url,        'git@github.com:Gullah-Marketplace/Marketplace.git'
-set :application,     'gullah'
+set :application,     'people_shop'
 set :user,            'ubuntu'
 set :puma_threads,    [4, 16]
 set :puma_workers,    3
 
 # Don't change these unless you know what you're doing
-set :rvm_ruby_version, 'ruby-2.6.5@gullah'
+set :rvm_ruby_version, 'ruby-2.6.5@people_shop'
 set :pty,             true
 # set :use_sudo,        false
 # set :deploy_via,      :remote_cache
